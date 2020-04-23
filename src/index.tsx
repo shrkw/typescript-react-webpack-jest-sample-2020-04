@@ -1,7 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+
+import { Hello } from "./components/Hello";
 
 ReactDOM.render(
-  <h1>hello react.</h1>,
-  document.querySelector("#app")
+    <Hello compiler="TypeScript" framework="React" />,
+    document.getElementById("example")
 );
