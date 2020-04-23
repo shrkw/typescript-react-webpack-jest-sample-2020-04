@@ -6,14 +6,11 @@ export const Counter = () => {
 
   return (
     <div style={{ margin: '10em' }}>
-      <div
-        style={isRed ? { color: 'red' } : undefined}>
-        {count}
-      </div>
+      <p style={isRed ? { color: 'red' } : undefined}>You clicked {count} times</p>
       <button onClick={() => {
         setCount(count + 1);
         setIsRed((count + 1) % 3 === 0);
-      }}>count up</button>
+      }}>Click me</button>
     </div>
   );
 };
