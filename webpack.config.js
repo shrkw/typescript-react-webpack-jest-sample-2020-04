@@ -1,3 +1,5 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   mode: 'development',
   module: {
@@ -10,14 +12,17 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ // importできるファイルの拡張子
+    extensions: [
       '.ts', '.tsx', '.js', '.json'
     ],
   },
-  devtool: 'inline-source-map',  // sourcemapを使えるようにする
-  devServer: {  // 開発用のローカルサーバの設定
+  devtool: 'inline-source-map',
+  devServer: {
       contentBase: "./dist",
       host: '0.0.0.0',
       port: "3035"
-  }
+  },
+  plugins: [new HtmlWebpackPlugin({
+    template: "./src/html/index.html"
+  })]
 };
