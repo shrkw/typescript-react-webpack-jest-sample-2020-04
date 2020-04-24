@@ -19,3 +19,7 @@ $ npx jest -v
     "react": {
       "version": "16.13.1",
 ```
+
+## Recommended Extensions
+
+* orta.vscode-jest
