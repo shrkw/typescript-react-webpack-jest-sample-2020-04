@@ -15,6 +15,9 @@ module.exports = {
     extensions: [
       '.ts', '.tsx', '.js', '.json'
     ],
+    alias: {
+      '@': `${__dirname}/src`
+    },
   },
   devtool: 'inline-source-map',
   devServer: {

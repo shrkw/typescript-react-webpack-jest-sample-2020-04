@@ -4,7 +4,7 @@ import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 
-import { HelloStranger } from "./HelloStranger";
+import { HelloStranger } from "@/components/HelloStranger";
 
 let container: HTMLDivElement;
 beforeEach(() => {
