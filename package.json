@@ -16,7 +16,6 @@
     "@types/node": "^13.13.2",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
-    "create-react-app": "^3.4.1",
     "jest": "^25.4.0",
     "ts-jest": "^25.4.0",
     "ts-loader": "^7.0.1",
@@ -28,7 +27,6 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.1.0"
+    "react-dom": "^16.13.1"
   }
 }
