@@ -4,7 +4,7 @@ import { act } from "react-dom/test-utils";
 
 import { HelloStranger } from "./HelloStranger";
 
-let container: Element;
+let container: HTMLDivElement;
 beforeEach(() => {
   // setup a DOM element as a render target
   container = document.createElement("div");
